@@ -1,25 +1,43 @@
-/* Styles généraux */
+/*Styles généraux*/
 body {
   font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
-  color: #f00;
+  color: #ff6347;
 }
 
 p {
   color: #333;
 }
 
-/* Styles spécifiques au thème de Pâques */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #0066cc;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/*Styles spécifiques pour le thème de Pâques*/
+body {
+  background-image: url('https://example.com/easter-background.jpg');
+  background-size: cover;
+}
+
 h1 {
   text-align: center;
 }
-
-html {
-  height: 100%;
-  width: 100%;
-  background-color: #fff;
-}
-
-/* Ajoutez ici d'autres styles spécifiques au thème de Pâques */

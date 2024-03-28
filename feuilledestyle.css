@@ -1,1 +1,25 @@
+/* Styles généraux */
+body {
+  font-family: Arial, sans-serif;
+}
 
+h1 {
+  color: #f00;
+}
+
+p {
+  color: #333;
+}
+
+/* Styles spécifiques au thème de Pâques */
+h1 {
+  text-align: center;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+}
+
+/* Ajoutez ici d'autres styles spécifiques au thème de Pâques */
